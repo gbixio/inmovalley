@@ -13033,31 +13033,65 @@ body {
   color: #f7f7f7;
 }
 
+.hero {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 15rem;
+}
+
+.hero img.hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .hero-text {
   position: absolute;
-  top: 50%;
+  bottom: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 60%);
   color: #fff;
-  text-align: center;
   z-index: 1;
+  width: 75%;
+  height: fit-content;
 }
 .hero-text h1, .hero-text .h1 {
+  text-align: center;
   font-size: 162px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 9.1px;
   line-height: 150.66px;
   text-align: left;
   text-transform: uppercase;
 }
 .hero-text h2, .hero-text .h2 {
-  font-family: caveat;
+  font-family: "Caveat";
+  font-size: 68px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  text-align: start;
+  margin-top: 210px;
+  color: #978510;
 }
 
 .hero-icon {
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 30%;
+  bottom: 0;
+  transform: translate(-50%, -140%);
   z-index: 2;
+}
+
+.dropdown-img {
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  transform: translateY(-40%);
+  width: 10px;
+}
+
+.search-form-selector {
+  position: relative;
 }
